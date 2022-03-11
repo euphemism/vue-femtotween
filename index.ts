@@ -67,10 +67,14 @@ const setupTween = (
   const tweeningValue = ref(from);
 
   const reactivityCallback = (newValue: number) => {
-    tweeningValue.value =
+    const truncatedValue =
       null == options.precision
         ? newValue
         : Number.parseFloat(newValue.toFixed(options.precision));
+
+    if (truncatedValue !== tweeningValue.value) {
+      tweeningValue.value = truncatedValue;
+    }
 
     callback?.(newValue);
   };
