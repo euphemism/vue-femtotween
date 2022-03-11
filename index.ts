@@ -150,8 +150,8 @@ const _useTween = (
 /**
  * Composable to use {@link https://github.com/pearofducks/femtoTween femtoTween's} tween function in a (Vue 3 Composition API) reactive way
  *
- * @param source
- * @param options Tweening options.
+ * @param source The Ref<number | number[]> off of which to trigger tweening
+ * @param options Tweening options
  * @param callback Callback function that will be called on each tween-frame
  * @returns Ref that updates on each tween-frame; also exposes a 'stop' function to stop tweening
  */
