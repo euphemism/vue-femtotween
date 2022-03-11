@@ -1,0 +1,27 @@
+{
+  "name": "vue-femtotween",
+  "version": "1.0.0",
+  "description": "Vue 3 Composition API reactivity wrapper for femtoTween",
+  "main": "dist/index.js",
+  "types": "dist/ index.d.ts",
+  "scripts": {
+    "clean": "rm -rf ./dist",
+    "build": "npm run clean && tsc",
+    "prepublish": "npm run clean && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vue",
+    "femtotween",
+    "tween",
+    "tweening"
+  ],
+  "author": "Nicholas Sidwell",
+  "license": "MIT",
+  "dependencies": {
+    "femtotween": "^2.0.3"
+  },
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  }
+}
