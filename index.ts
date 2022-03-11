@@ -2,6 +2,23 @@ import { computed, reactive, Ref, ref, watch, WatchStopHandle } from "vue";
 
 import { tween, tweenCallback } from "femtotween";
 
+export {
+  linear,
+  easeInQuad,
+  easeOutQuad,
+  easeInOutQuad,
+  easeInCubic,
+  easeOutCubic,
+  easeInOutCubic,
+  easeInQuart,
+  easeOutQuart,
+  easeInOutQuart,
+  easeInQuint,
+  easeOutQuint,
+  easeInOutQuint,
+  tweenCallback,
+} from "femtotween";
+
 export interface TweenOptions {
   /**
    * Time in ms for the tween - default: `400`
