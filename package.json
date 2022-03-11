@@ -18,6 +18,7 @@
   ],
   "author": "Nicholas Sidwell",
   "license": "MIT",
+  "repository": "https://github.com/euphemism/vue-femtotween",
   "dependencies": {
     "femtotween": "^2.0.3"
   },
