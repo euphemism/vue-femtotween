@@ -6,7 +6,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: path.resolve(__dirname, "index.ts"),
-      fileName: (format) => `vue-femtotween.${format}.js`,
+      fileName: (format) => `${format}.js`,
       name: "VueFemtoTween",
     },
     rollupOptions: {

@@ -7,12 +7,12 @@
     "index.ts",
     "index.d.ts"
   ],
-  "main": "dist/vue-femtotween.umd.js",
-  "module": "dist/vue-femtotween.es.js",
+  "main": "dist/umd.js",
+  "module": "dist/es.js",
   "exports": {
     ".": {
-      "import": "./dist/vue-femtotween.es.js",
-      "require": "./dist/vue-femtotween.umd.js"
+      "import": "./dist/es.js",
+      "require": "./dist/umd.js"
     }
   },
   "types": "index.d.ts",
