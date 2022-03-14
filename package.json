@@ -1,6 +1,6 @@
 {
   "name": "vue-femtotween",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Vue 3 Composition API reactivity wrapper for femtoTween",
   "files": [
     "dist",
