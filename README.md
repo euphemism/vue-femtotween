@@ -12,6 +12,14 @@ npm install vue-femtotween
 import { useTween } from "vue-femtotween";
 ```
 
+UMD:
+
+```js
+import "vue-femtotween/dist/umd.js";
+
+VueFemtotween.useTween(. . .
+```
+
 ## Usage
 
 The package exposes a single entrypoint function, `useTween`, as well as re-exporting the [easing functions](https://github.com/pearofducks/femtoTween/blob/master/ease.js) offered by `femtoTween`.
