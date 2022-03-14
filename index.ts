@@ -16,9 +16,9 @@ export {
   easeInQuint,
   easeOutQuint,
   easeInOutQuint,
-  tweenCallback,
 } from "femtotween";
 
+export type { tweenCallback } from "femtotween";
 export interface TweenOptions {
   /**
    * Time in ms for the tween - default: `400`
