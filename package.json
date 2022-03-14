@@ -28,7 +28,7 @@
     "tween",
     "tweening"
   ],
-  "author": "Nicholas Sidwell",
+  "author": "Nicholas Sidwell <nicholas@sidwell.dev>",
   "license": "MIT",
   "repository": "https://github.com/euphemism/vue-femtotween",
   "dependencies": {
