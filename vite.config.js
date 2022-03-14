@@ -7,7 +7,7 @@ export default defineConfig({
     lib: {
       entry: path.resolve(__dirname, "index.ts"),
       fileName: (format) => `${format}.js`,
-      name: "VueFemtoTween",
+      name: "VueFemtotween",
     },
     rollupOptions: {
       // make sure to externalize deps that shouldn't be bundled
