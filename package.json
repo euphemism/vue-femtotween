@@ -39,8 +39,6 @@
   },
   "devDependencies": {
     "rimraf": "^3.0.2",
-    "vite": "^2.8.6",
-    "vite-dts": "^1.0.4",
-    "vite-plugin-dts": "^0.9.10"
+    "vite": "^2.8.6"
   }
 }
