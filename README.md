@@ -84,7 +84,7 @@ const useTween: <T extends number | number[]>(
 ## Example
 
 ```ts
-import { defineComponent, ref } from "vue";
+import { ref } from "vue";
 
 import { linear, useTween } from "vue-femtotween";
 
